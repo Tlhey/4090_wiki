@@ -17,7 +17,7 @@ mamba下载教程(4090机器):
 
 小技巧2: 将下面代码加入env.yaml文件:
 
-```
+```yaml
 - pip:
     - -i https://pypi.tuna.tsinghua.edu.cn/simple               # (1)换清华源加速下载（可以加速）
     - --extra-index-url https://download.pytorch.org/whl/cu116  # (2)下常用的旧版本(记得改cuda编号) ,可以解决很多库旧版本pip无法找到的问题
