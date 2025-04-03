@@ -4,3 +4,4 @@
 * [网络问题](cn/03_network.md)
 * [装环境](cn/04_env.md)
 * [Mamba](cn/05_mamba.md)
+* [SSH](cn/06_ssh.md)
