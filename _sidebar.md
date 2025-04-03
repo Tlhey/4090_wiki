@@ -1,5 +1,5 @@
 * [Home](/)
-* [Get Started](cn/1.md)
+* [喵](cn/1.md)
 * [Linux指令](cn/02_linux.md)
 * [网络问题](cn/03_network.md)
 * [装环境](cn/04_env.md)
