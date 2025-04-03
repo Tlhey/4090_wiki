@@ -34,7 +34,7 @@ for job in $(jobs -p); do kill -9 %$job; done  # 删除所有后台任务（慎�
 
 
 重启命令行 \
-source ~/.bashrc  # 重新加载配置文件 \
+`source ~/.bashrc`  # 重新加载配置文件 \
  \
 
 

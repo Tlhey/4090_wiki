@@ -5,3 +5,4 @@
 * [装环境](cn/04_env.md)
 * [Mamba](cn/05_mamba.md)
 * [SSH](cn/06_ssh.md)
+* [git](cn/07_git.md) 

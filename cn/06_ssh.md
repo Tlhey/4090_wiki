@@ -6,5 +6,5 @@ vscode 有时候很多插件无法生效，考虑vscode是否升级到最新版�
 
 vscode命令行ssh失败，先尝试系统terminal ssh，如果成功，则考虑重装vscode Remote-SSH插件。
 
-
+github 配置ssh-key参考：https://zhuanlan.zhihu.com/p/688103044
 
