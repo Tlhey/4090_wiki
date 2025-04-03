@@ -2,7 +2,7 @@
 如果遇到了陈年的老仓库（python<=3.10, torch=1.x，用conda装环境会变得非常困难。Mamba是一个很好的替代。~~~比如我刚刚就成功的装了一个奇怪的环境~~~
 
 mamba下载教程(4090机器):
-wget -4 "https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/LatestRelease/Miniforge3-24.11.3-2-Linux-x86_64.sh" 
+```wget -4 "https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/LatestRelease/Miniforge3-24.11.3-2-Linux-x86_64.sh" ```
 安装即可。
 
 使用方法,和conda基本一致，只是把conda换成micromamba即可。
@@ -14,6 +14,6 @@ wget -4 "https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/minifor
 
 小技巧2: 加速生成
 1 换清华源加速下载 2 下常用的旧版本(记得改cuda)
-  - pip:
+- pip:
     - -i https://pypi.tuna.tsinghua.edu.cn/simple 
     - --extra-index-url https://download.pytorch.org/whl/cu116

@@ -2,27 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>My Sweet Docs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    #app {
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">Loading…</div>
+
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: 'Sweet Docs',
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 2
     }
   </script>
-  <!-- Docsify v4 -->
+
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
-<script>
-  window.$docsify = {
-    loadSidebar: true
-  }
-</script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </html>
