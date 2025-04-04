@@ -8,3 +8,5 @@
 小技巧3: 使用镜像源 (`pip install xxx -i https://pypi.tuna.tsinghua.edu.cn/simple`)
 
 小技巧4: 善用搜索引擎... (使用代理 `git config --global http(s).proxy 'socks5://127.0.0.1:1080'` 一类的,网上有很多教程
+
+hugging face 镜像教程： https://zhuanlan.zhihu.com/p/32981512105
